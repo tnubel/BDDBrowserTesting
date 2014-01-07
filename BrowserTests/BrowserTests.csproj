@@ -35,13 +35,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GurkBurk">
+    <Reference Include="GurkBurk, Version=0.1.0.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\nbehave.0.6.2\lib\net35\GurkBurk.dll</HintPath>
     </Reference>
-    <Reference Include="NBehave.Gherkin">
+    <Reference Include="NBehave.Gherkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\nbehave.0.6.2\lib\net35\NBehave.Gherkin.dll</HintPath>
     </Reference>
-    <Reference Include="NBehave.Narrator.Framework">
+    <Reference Include="NBehave.Narrator.Framework, Version=0.6.2.337, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\nbehave.0.6.2\lib\net35\NBehave.Narrator.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
