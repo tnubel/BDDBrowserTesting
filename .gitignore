@@ -214,6 +214,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-BrowserTestingStandalone/screenshots/*
+BrowserTestingStandalone/screenshots/*.png
 packages/
 packages/*
