@@ -1,0 +1,20 @@
+Feature: HelloWorld
+  A narrative is optional
+  Scenario: Load Wikipedia 
+    Given a browser
+    When I visit "http://www.wikipedia.org"
+    And I fill in "search" with "West Monroe Partners"
+    And I press "go"
+    And I wait for 2 seconds
+    Then I should see "West Monroe Partners LLC"
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+6 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m10.426s
+ad Wikipedia
+
+0 features passed, 1 failed, 0 skipped
+0 scenarios passed, 1 failed, 0 skipped
+4 steps passed, 0 failed, 1 skipped, 1 undefined
+Took 0m6.703s
